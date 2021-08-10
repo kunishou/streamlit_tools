@@ -28,7 +28,7 @@ with st.sidebar:
 
     st.title("Kunishou's WEB Tools")
 
-    st.write('WEB上で使用可能な機械学習・データ分析デモツールを公開しています。')
+    st.write('WEB上で使用可能な機械学習・データ分析ツールを公開しています。Streamlitのメモリ上限の関係で一部実行できないものがあります。')
     st.write('')
     sideradio = st.radio('',('FAST PyCaret', 'Pandas-Profiling', 'Ace Editor', 'My Movie', 'About me'))
 
