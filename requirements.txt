@@ -1,0 +1,8 @@
+streamlit==0.86.0
+streamlit-ace
+streamlit-pandas-profiling
+pandas-profiling
+streamlit-player
+pandas
+numpy
+-e git+https://github.com/kunishou/pycaret.git
