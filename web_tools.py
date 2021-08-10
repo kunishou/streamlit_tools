@@ -28,7 +28,7 @@ with st.sidebar:
 
     st.title("Kunishou's WEB Tools")
 
-    st.write('WEB上で使用可能な機械学習・データ分析ツールを公開しています。')
+    st.write('WEB上で使用可能な機械学習・データ分析デモツールを公開しています。')
     st.write('')
     sideradio = st.radio('',('FAST PyCaret', 'Pandas-Profiling', 'Ace Editor', 'My Movie', 'About me'))
 
@@ -49,7 +49,7 @@ if sideradio == 'FAST PyCaret':
     st.write('')
 
     st.write('手軽にモデル性能を比較するためのAutoMLツールです。')
-    st.write('現段階では分類タスクのみ実施可能。回帰タスクは作成中')
+    st.write('現段階では分類タスクのみ実施可能。回帰タスクは作成中。')
     st.write('')
 
     task = st.selectbox('機械学習タスクを選択',('分類', '回帰'))
@@ -108,18 +108,7 @@ if sideradio == 'FAST PyCaret':
                 st.session_state.push2 = True
 
             if target and st.session_state.push2:
-                clf = setup(data = df1,
-                        target = target,
-                        numeric_imputation = 'mean',
-                        ignore_features = ignore_features,
-                        fix_imbalance = imbalance,
-                        session_id=123,
-                        silent = True,)
-
-                result = compare_models()
-                st.dataframe(result)
-                st.write('')
-                st.markdown('## 完了')
+                st.write('使用メモリ上限の関係でこの先実行不可')
 
     if task == '回帰':
         st.markdown('# Under Construction')
