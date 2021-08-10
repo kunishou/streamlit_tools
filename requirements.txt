@@ -5,4 +5,4 @@ pandas-profiling
 streamlit-player
 pandas
 numpy
--e git+https://github.com/kunishou/pycaret.git#egg=pycaret.git-2.3.3
+-e git+https://github.com/kunishou/pycaret@master#egg=pycaret
