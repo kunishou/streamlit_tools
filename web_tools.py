@@ -203,6 +203,7 @@ if sideradio == 'My Movie':
     st.markdown("### 🎬 Python初学者のためのPandas100本ノック  [(Qiita)](https://qiita.com/kunishou/items/bd5fad9a334f4f5be51c)")
     st.write('')
     st_player("https://youtu.be/apYJZbiM_D4")
+    st.write('')
     st.markdown("### 🎬 夏なのでStreamlitを用いてWEBアプリケーションを作成してみた")
     st.write('')
     st_player("https://youtu.be/PEA1us0II4Q")
