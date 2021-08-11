@@ -108,6 +108,7 @@ if sideradio == 'FAST PyCaret':
                 st.session_state.push2 = True
 
             if target and st.session_state.push2:
+                st.balloons()
                 st.write('使用メモリ上限の関係でこの先実行不可')
 
     if task == '回帰':
@@ -146,11 +147,13 @@ if sideradio == 'Pandas-Profiling':
             st.write(df2)
             st.write('')
             pr = df2.profile_report()
+            st.balloons()
             st_profile_report(pr)
         if check2:
             df2 = pd.read_csv('titanic.csv')
             st.write(df2)
             pr = gen_profile_report(df2, explorative=True)
+            st.balloons()
             with st.expander("DEMO REPORT", expanded=True):
                 st_profile_report(pr)
 
