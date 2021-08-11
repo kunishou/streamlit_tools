@@ -33,9 +33,9 @@ with st.sidebar:
     sideradio = st.radio('',('FAST PyCaret', 'Pandas-Profiling', 'Ace Editor', 'My Movies', 'About me'))
 
     st.markdown("")
-    st.markdown("## Link")
-    st.markdown("[Qiita](https://qiita.com/kunishou)")
-    st.markdown("[GitHub](https://github.com/kunishou)")
+    #st.markdown("## Link")
+    #st.markdown("[Qiita](https://qiita.com/kunishou)")
+    #st.markdown("[GitHub](https://github.com/kunishou)")
 
 #-------------------------------------------------------------------------------------------------
 
