@@ -214,6 +214,7 @@ if sideradio == 'My Movies':
 #-------------------------------------------------------------------------------------------------
 
 if sideradio == 'Balloons':
+    st.write('風船を飛ばしてあなたの心をリラックスさせます。')
     button5 = st.button('Fly Ballons !')
     
     if button5:
