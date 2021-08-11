@@ -163,23 +163,24 @@ if sideradio == 'Ace Editor':
     st.image(image4,width=150)
     st.write('')
     st.write('ブラウザ上で動作するJavaScriptベースのコードエディタです')
+    st.write('サイドバーから設定変更ができます。')    
 
-    st.title(" ⚙️ Parameters")
+    st.sidebar.title("⚙️ Parameters")
 
     with st.container():
         content = st_ace(
+                placeholder=st.sidebar.text_input("Editor placeholder", value="Write your code here"),
+                language=st.sidebar.selectbox("Language mode", options=LANGUAGES, index=121),
+                theme=st.sidebar.selectbox("Theme", options=THEMES, index=35),
+                keybinding=st.sidebar.selectbox("Keybinding mode", options=KEYBINDINGS, index=3),
+                font_size=st.sidebar.slider("Font size", 5, 24, 14),
+                tab_size=st.sidebar.slider("Tab size", 1, 8, 4),
+                show_gutter=st.sidebar.checkbox("Show gutter", value=True),
+                show_print_margin=st.sidebar.checkbox("Show print margin", value=False),
+                wrap=st.sidebar.checkbox("Wrap enabled", value=False),
+                auto_update=st.sidebar.checkbox("Auto update", value=False),
+                readonly=st.sidebar.checkbox("Read-only", value=False),
                 key="ace",
-                placeholder=st.text_input("Editor placeholder", value="Write your code here"),
-                language=st.selectbox("Language mode", options=LANGUAGES, index=121),
-                theme=st.selectbox("Theme", options=THEMES, index=35),
-                keybinding=st.selectbox("Keybinding mode", options=KEYBINDINGS, index=3),
-                font_size=st.slider("Font size", 5, 24, 14),
-                tab_size=st.slider("Tab size", 1, 8, 4),
-                show_gutter=st.checkbox("Show gutter", value=True),
-                show_print_margin=st.checkbox("Show print margin", value=False),
-                wrap=st.checkbox("Wrap enabled", value=False),
-                auto_update=st.checkbox("Auto update", value=False),
-                readonly=st.checkbox("Read-only", value=False),
                 )
 
     st.write(content)
@@ -226,6 +227,9 @@ if sideradio == 'About me':
     ## 座右の銘
     バットを振らなきゃホームランは打てない
 
-
-
     """
+
+st.sidebar.markdown("")
+st.sidebar.markdown("## Link")
+st.sidebar.markdown("[Qiita](https://qiita.com/kunishou)")
+st.sidebar.markdown("[GitHub](https://github.com/kunishou)")
