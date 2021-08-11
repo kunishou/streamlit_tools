@@ -223,11 +223,17 @@ if sideradio == 'About me':
     ・ Photoshop/ Illustrator/ SAI/ After Effects/ Photoshop Lightroom/ Fusion360
     ```
     ## 資格
+    ```
     統計検定2級/ Python3エンジニア認定基礎試験・データ分析試験/ ORACLE MASTER Bronze/ AWSクラウドプラクティショナー/ AI Quest2020修了/ 知的財産管理技能検定3級/ and more ...
+    ```
     ## 趣味
+    ```
     機械学習、Pythonの勉強/ デジタルクリエイト/ 音楽/ カメラ
+    ```
     ## 座右の銘
+    ```
     バットを振らなきゃホームランは打てない
+    ```
 
     """
 
