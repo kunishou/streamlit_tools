@@ -30,7 +30,7 @@ with st.sidebar:
 
     st.write('WEB上で使用可能な機械学習・データ分析ツールを公開しています。Streamlitのメモリ上限の関係で一部実行できないものがあります。')
     st.write('')
-    sideradio = st.radio('',('FAST PyCaret', 'Pandas-Profiling', 'Ace Editor', 'My Movie', 'About me'))
+    sideradio = st.radio('',('FAST PyCaret', 'Pandas-Profiling', 'Ace Editor', 'My Movies', 'About me'))
 
     st.markdown("")
     st.markdown("## Link")
@@ -186,7 +186,7 @@ if sideradio == 'Ace Editor':
         
 #-------------------------------------------------------------------------------------------------
 
-if sideradio == 'My Movie':
+if sideradio == 'My Movies':
     with st.sidebar:
         st.title("⚙️ Parameters")
 
