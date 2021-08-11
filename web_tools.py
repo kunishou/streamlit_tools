@@ -203,7 +203,7 @@ if sideradio == 'My Movies':
             "muted": st.checkbox("Muted", False),
         }
     
-    st.markdown("### 🎬 夏なのでStreamlitを用いてWEBアプリケーションを作成してみた")
+    st.markdown("### 🎬 夏なのでPythonのStreamlitを用いて機械学習アプリケーションを作成してみた")
     st.write('')
     st_player("https://youtu.be/PEA1us0II4Q")
     st.write('')
