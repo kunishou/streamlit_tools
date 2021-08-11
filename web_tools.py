@@ -235,7 +235,8 @@ if sideradio == 'About me':
     ```
     ## 資格
     ```
-    統計検定2級/ Python3エンジニア認定基礎試験・データ分析試験/ ORACLE MASTER Bronze/ AWSクラウドプラクティショナー/ AI Quest2020修了/ 知的財産管理技能検定3級/ and more ...
+    統計検定2級/ Python3エンジニア認定基礎試験・データ分析試験/ ORACLE MASTER Bronze/
+    AWSクラウドプラクティショナー/ AI Quest2020修了/ 知的財産管理技能検定3級/ and more ...
     ```
     ## 趣味
     ```
