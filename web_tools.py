@@ -168,6 +168,7 @@ if sideradio == 'Ace Editor':
 
     with st.container():
         content = st_ace(
+                key="ace",
                 placeholder=st.text_input("Editor placeholder", value="Write your code here"),
                 language=st.selectbox("Language mode", options=LANGUAGES, index=121),
                 theme=st.selectbox("Theme", options=THEMES, index=35),
@@ -179,7 +180,6 @@ if sideradio == 'Ace Editor':
                 wrap=st.checkbox("Wrap enabled", value=False),
                 auto_update=st.checkbox("Auto update", value=False),
                 readonly=st.checkbox("Read-only", value=False),
-                key="ace",
                 )
 
     st.write(content)
