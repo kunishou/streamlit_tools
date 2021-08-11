@@ -164,7 +164,7 @@ if sideradio == 'Ace Editor':
     image4 = Image.open(requests.get(url4,stream=True).raw)
     st.image(image4,width=150)
     st.write('')
-    st.write('ブラウザ上で動作するJavaScriptベースのコードエディタです')
+    st.write('ブラウザ上で動作するJavaScriptベースのテキストエディタです')
     st.write('サイドバーから設定変更ができます。')    
 
     st.sidebar.title("⚙️ Parameters")
