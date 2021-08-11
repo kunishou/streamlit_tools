@@ -109,9 +109,8 @@ if sideradio == 'FAST PyCaret':
 
             if target and st.session_state.push2:
                 st.write('使用メモリ上限の関係でこの先実行不可')
-                url2_2 = 'https://media.istockphoto.com/vectors/woman-says-sorry-sorry-face-vector-illustration-vector-id611877224?s=612x612'
-                image2_2 = Image.open(requests.get(url2_2,stream=True).raw).crop((100,200,1270,550))
-                st.image(image2_2,width=150)
+                image2_2 = Image.open('sorry.jpg')
+                st.image(image2_2,width=200)
 
     if task == '回帰':
         st.markdown('# Under Construction')
