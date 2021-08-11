@@ -215,7 +215,7 @@ if sideradio == 'My Movies':
 
 if sideradio == 'Relax Balloons':
     st.write('風船を飛ばしてあなたの心をリラックスさせます。')
-    button5 = st.button('Fly Ballons !')
+    button5 = st.button('Fly Ballons 🎈')
     
     if button5:
         st.balloons()
