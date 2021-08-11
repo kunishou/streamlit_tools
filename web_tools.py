@@ -108,7 +108,7 @@ if sideradio == 'FAST PyCaret':
                 st.session_state.push2 = True
 
             if target and st.session_state.push2:
-                st.write('使用メモリ上限の関係でこの先実行不可')
+                st.write('メモリ上限の関係でこの先実行不可')
                 image2_2 = Image.open('sorry.jpg')
                 st.image(image2_2,width=400)
 
