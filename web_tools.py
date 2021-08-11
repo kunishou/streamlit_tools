@@ -216,12 +216,12 @@ if sideradio == 'About me':
     """
     # Kunishou
     通信業界で働いている社会人11年目。Python、機械学習が好き。何かを形にするのが好き。Kaggle Expertを目指しています。横浜出身。
-    ## 資格
-    統計検定2級/ Python3エンジニア認定基礎試験・データ分析試験/ ORACLE MASTER Bronze/ AWSクラウドプラクティショナー/ AI Quest2020修了/ 知的財産管理技能検定3級/ and more ...
     ## スキル
     * Python: Python/ PyTorch/ Django/ Flask/ Streamlit/ Tkinter
     * Other: SQL/ HTML/ CSS
     * Photoshop/ Illustrator/ SAI/ After Effects/ Photoshop Lightroom/ Fusion360
+    ## 資格
+    統計検定2級/ Python3エンジニア認定基礎試験・データ分析試験/ ORACLE MASTER Bronze/ AWSクラウドプラクティショナー/ AI Quest2020修了/ 知的財産管理技能検定3級/ and more ...
     ## 趣味
     機械学習、Pythonの勉強/ デジタルクリエイト/ 音楽/ カメラ
     ## 座右の銘
