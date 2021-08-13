@@ -223,6 +223,10 @@ if sideradio == 'Relax Balloons':
 #-------------------------------------------------------------------------------------------------
 
 if sideradio == 'About me':
+    
+    url0 = 'https://image.shutterstock.com/image-photo/urban-landscape-tokyo-city-260nw-1461642569.jpg.'
+    image0 = Image.open(requests.get(url0,stream=True).raw).crop((0,0,600,1000))
+    st.image(image0,use_column_width=True)
 
     """
     # Kunishou
