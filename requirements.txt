@@ -1,4 +1,4 @@
-streamlit==0.86.0
+streamlit
 streamlit-ace
 streamlit-pandas-profiling
 pandas-profiling
