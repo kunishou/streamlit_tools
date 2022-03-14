@@ -120,7 +120,7 @@ if sideradio == 'FAST PyCaret':
 if sideradio == 'Pandas-Profiling':
     
     #st.title('Pandas-Profiling')
-    url3 = 'https://pandas-profiling.github.io/pandas-profiling/docs/assets/logo_header.png'
+    url3 = 'https://datatechlog.com/wp-content/uploads/2022/01/pandas-profiling.png'
     image3 = Image.open(requests.get(url3,stream=True).raw).crop((100,200,1270,550))
     st.image(image3,use_column_width=True)
     
